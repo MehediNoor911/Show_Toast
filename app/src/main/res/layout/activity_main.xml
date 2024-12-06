@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:layout_gravity="fill"
+    android:weightSum="1"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00C5FB"
+        android:gravity="center"
+        android:text="Get Your Toast"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="#C405FF"
+        android:text="Show Toast"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="517dp"
+        android:layout_weight="1"
+        android:background="#00C5FB"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="160sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#C405FF"
+        android:text="Count"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+</LinearLayout>
